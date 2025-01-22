@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  <style>
+    .hero-section {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+    }
+    .project-card {
+      margin-bottom: 30px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-center">
+    <div class="container">
+      <h1 class="display-4" style="text-shadow: 2px 2px 2px gray;"><b>Hello, I'm Onkar Rmagude</b></h1>
+      <p class="lead">A passionate web developer with a love for creating beautiful and functional websites.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Me</h2>
+          <p>Hello! I’m Onkar Rmagude, a passionate Full Stack Web Developer with a
+            knack for creating dynamic and user-friendly web applications. With a strong foundation in both front-end and
+            back-end technologies, I thrive on turning complex problems into elegant solutions.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="img/onkar.portfolio.jpeg" alt="Profile Picture" class="img-fluid rounded-circle" height="150px">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">My Work</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="img/digital learning.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Digital learning</h5>
+              <p class="card-text">Digital learning is any type of learning that uses technology to enhance the learning
+                experience. It includes online classes, research, and watching videos, as well as using digital tools in a
+                face-to-face setting. </p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="img/onlin shopping system.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Online Shopping </h5>
+              <p class="card-text">Online Shopping India - Buy mobiles, laptops, cameras, books, watches, apparel, shoes
+                and e-Gift Cards. Free Shipping & Cash on Delivery </p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card project-card">
+            <img src="img/download.jpg" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Smart Stock Strategies</h5>
+              <p class="card-text">mart investing should always be centered around your financial goals. Other
+                characteristics of a smart investing approach include optimization, diversification, flexibility, periodic
+                rebalancing and consistency</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Contact Me</h2>
+      <form class="contact-form">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white ">
+    
+    <div class="container-fluid">
+        <div class="row" style="background-color: #333;">
+          <div class="col-sm-4" style="color: aliceblue;">
+            <h3>About Me</h3> <br>
+            Passionate web developer with a knack for creating user-friendly and visually appealing websites. Dedicated to
+            continuous learning and leveraging the latest technologies to deliver innovative solutions. Committed to
+            enhancing user experiences and driving results through effective design and development.
+          </div> <br>
+          <div class="col-sm-4"><br>
+            <i class="material-icons" style="font-size:36px">place</i>
+            <p style="color: white;">katraj,pune city,india.</p>
+            <i class="material-icons" style="font-size: 36px;">local_phone</i>
+            <p style="color: white;">+91 ######## </p>
+            <i class="fa fa-envelope-o" style="font-size:36px"></i>
+            <p style="color: white;">omkarramgude1974@gmail.com</p>
+          </div>
+          <div class="col-sm-4">
+            <h3 style="color: white;">Follow Me</h3>
+            <br>
+            <div class="icones">
+              <a href="https://www.instagram.com/trade.trends19/?hl=en" target="_blank"><i class="fa fa-instagram"
+                  style="font-size:36px"></i></a>
+              <a href="https://www.linkedin.com/in/omkar-ramgude-048208329/" target="_blank"><i class="fa fa-linkedin"
+                  style="font-size:36px"></i></a>
+              <a href="https://github.com/Onkarramgude" target="_blank"><i class="fa fa-github"
+                  style="font-size:36px"></i></a>
+            </div>
+          </div>
+        </div>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
